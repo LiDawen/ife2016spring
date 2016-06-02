@@ -1,0 +1,30 @@
+#nav{
+	background: #515151;
+
+}
+#nav ul{
+	list-style-type: none;
+
+}
+#nav li{
+}
+#nav a{
+	color: white;
+	text-decoration: none;
+}
+body{
+	line-height:30px;
+	background: rgb(222,222,222);
+}
+.section {
+	background: white;
+	margin:10px;
+	padding:20px;
+}
+/*.content{
+text-indent: 2em;
+}
+*/
+.first_line_indent{
+	text-indent: 2em;
+}
