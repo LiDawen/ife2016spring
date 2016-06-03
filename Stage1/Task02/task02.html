@@ -17,17 +17,17 @@
 	</div>
 	<div class="section">
 		<div class="content">
-			<h2>文章一级标题</h2>
-			<h2>文章二级标题</h2>
-			<p>文章作者  文章发表时间</p>
+			<h2 class="title1">文章一级标题</h2>
+			<h2 class="title2">文章二级标题</h2>
+			<p class="author">文章作者  文章发表时间</p>
 			<p class="first_line_indent">很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容换行<br>很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容<a href="http://ife.baidu.com">这里有一个链接</a>很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容<br></p>
 			<img src="printer.jpg" alt="printer"><br>
-				<p class="first_line_indent">很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容换行<br>很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容<a href="http://ife.baidu.com">这里有一个链接</a>很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容<br></p>
+			<p class="first_line_indent">很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容换行<br>很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容<a href="http://ife.baidu.com">这里有一个链接</a>很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容很长很长的内容<br></p>
 		</div>
 	</div>
 	<div class="section">
-		<h2>另一个文章一级标题</h2>
-		<h2>文章二级标题</h2>
+		<h2 class="title1">另一个文章一级标题</h2>
+		<h2 class="title2">文章二级标题</h2>
 		<img src="printer.jpg" alt="printer"><br>
 		<ul>
 			<li>列表项目一</li>
@@ -53,17 +53,17 @@
 
 </div>
 <div class="section">
-	<h2>最后一篇文章一级标题</h2>
-	<h2>文章二级标题</h2>
-	<p>文章作者  文章发表时间</p>
+	<h2 class="title1">最后一篇文章一级标题</h2>
+	<h2 class="title2">文章二级标题</h2>
+	<p class="author">文章作者  文章发表时间</p>
 	<ol>
 		<li>排名1</li>
 		<li>排名2</li>
 		<li>排名3</li>
 	</ol>
 	<p>下面是一个表格，border="1"</p>
-	<table border="1">
-		<tr>
+	<table >
+		<tr class="table_head">
 			<td>表头</td>
 			<td>表头</td>
 			<td>表头</td>
@@ -88,42 +88,54 @@
 			<td>表内容单元格</td>
 			<td><a href="#">操作</a></td>
 		</tr>
-		<tr>
+		<tr class="table_footer">
 			<td>总计</td>
 			<td colspan="2">1000</td>
 		</tr>
 
 	</table>
 </div>
-<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-<h2>侧栏注册窗口标题</h2>
-<form>
-	<div>请输入邮箱地址:<input type="email" value="这是一个文本输入框" name="email"> </input></div><br>
-	<div>
-		请输入密码：
-		<input type="password" name="pwd1"> </input>	
-		请重复输入密码：
-		<input type="password" name="pwd2"> </input><br><br>
-		密码为6-16位英文数字。
-	</div>
-	<div>
-		性别：
-		<input type="radio" checked value="male" name="gender">男</input>
-		<input type="radio" value="female" name="gender">女</input>
-		城市：
-		<select> name="city">
-			<option value="beijing"> 北京</option> 
-			<option value="shanghai">上海</option> 
-		</select>
-		爱好：
-		<input type="checkbox" name="habbit" value="exercise">运动</input>
-		<input type="checkbox" name="habbit" value="art">艺术</input>
-		<input type="checkbox" name="habbit" value="science">科学</input>
-		个人描述：
-		<textarea  ></textarea >
-			<input type="submit" value="确认提交"></input>
+<div class="section side">
+	<h2 class="gray_left">这里以后是一个侧栏，这是侧栏的标题</h2>
+	<form>
+		<div>
+			<div class="col1">请输入邮箱地址:</div><div class="col2"><input type="email" value="这是一个文本输入框" name="email"></input></div></div>
+			<div>
+				请输入密码：
+				<input type="password" name="pwd1"> </input>	
+			</div>
+			<div>
+				请重复输入密码：
+				<input type="password" name="pwd2"> </input><br><br>
+				密码为6-16位英文数字。
+			</div>
+			<div>
+				性别：
+				<input type="radio" checked value="male" name="gender">男</input>
+				<input type="radio" value="female" name="gender">女</input>
+			</div>
+			<div>
+				城市：
+				<select> name="city">
+					<option value="beijing"> 北京</option> 
+					<option value="shanghai">上海</option> 
+				</select>
+			</div>
+			<div>
+				爱好：
+				<input type="checkbox" name="habbit" value="exercise">运动</input>
+				<input type="checkbox" name="habbit" value="art">艺术</input>
+				<input type="checkbox" name="habbit" value="science">科学</input>
+			</div>
+			<div>
+				个人描述：
+				<textarea  ></textarea >
+				</div>
+
+				<input class="confirm" type="submit" value="确认提交"></input>
+
+			</form>
 		</div>
-	</form>
-	<p>版权所有</p>
-</body>
-</html>
+		<p>版权所有</p>
+	</body>
+	</html>
